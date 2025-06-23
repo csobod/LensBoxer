@@ -1,0 +1,12 @@
+{
+	"autodeskProduct": "Fusion360",
+	"type": "addin",
+	"id": "e9a1c8d5-b3e1-4c4f-9a1b-f7e8c6d9a4e7",
+	"author": "Chad Sobodash",
+	"description": {
+		"": "Creates boxing references for a selected closed curve."
+	},
+	"version": "1.0.0",
+	"runOnStartup": true,
+	"supportedOS": "windows|mac"
+}
