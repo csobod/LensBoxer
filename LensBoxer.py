@@ -32,7 +32,7 @@ class CommandExecuteHandler(adsk.core.CommandEventHandler):
             sketch = design.activeEditObject
             
             if ui.activeSelections.count != 1:
-                ui.messageBox('Please select a the eyewire, represented \nby a single closed sketch curve.')
+                ui.messageBox('Please select the eyewire, represented \nby a single closed sketch curve.')
                 return
             eyewireCurve = ui.activeSelections.item(0).entity
             if not isinstance(eyewireCurve, adsk.fusion.SketchCurve) or not eyewireCurve.geometry.isClosed:
